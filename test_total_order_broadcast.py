@@ -23,6 +23,7 @@ buffer_size = 1024
 # assign this variable to client to check duplicate message issue.
 duplicate_client = ("127.0.0.1", 20002)
 
+
 def create_client():
     data = {}
     for message in message_data:
